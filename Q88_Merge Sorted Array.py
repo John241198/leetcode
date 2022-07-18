@@ -15,11 +15,11 @@ print(nums1)
 
 
 #improved solution
-idx = 0
+result = 0
 while n > 0:
-    nums1[m] = nums2[idx]
+    nums1[m] = nums2[result]
     m+=1
     n-=1
-    idx +=1
+    result +=1
 nums1.sort()
 print(nums1)
