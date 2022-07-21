@@ -1,3 +1,8 @@
+"""
+initially split the sentence and in for loop we extract the last integer and  words to append
+in dict and sort the dict based on key and append the words on result based on sorting.
+"""
+
 s = "is2 sentence4 This1 a3"
 
 x = s.split()
